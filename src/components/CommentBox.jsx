@@ -2,12 +2,12 @@ import React from 'react'
 
 const CommentBox = () => {
   return (
-    <div>
+    <div className='flex'>
       <div>
-        <img src="https://styles.redditmedia.com/t5_2dj7xl/styles/communityIcon_z5sjw5hugz2f1.png?width=64&frame=1&auto=webp&s=07f926efa28e27b2a15673dae463d2a28c8f560d"/>
+        <img className='w-16' src="https://i.redd.it/snoovatar/avatars/97a48e43-58a6-4dcc-b5d2-771bb374872b.png"/>
       </div>
       <div>
-        <p>Bobby Deepak</p>
+        <p className='p-2 font-bold'>Bobby Deepak</p>
 <p>Lorem ipsum dolor sit amet.</p>
       </div>
     </div>
