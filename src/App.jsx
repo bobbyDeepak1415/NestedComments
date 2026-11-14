@@ -1,9 +1,10 @@
+import Comments from "./components/Comments"
 
 function App() {
 
   return (
-   <div>
-    Hello
+   <div >
+    <Comments/>
    </div>
   )
 }
