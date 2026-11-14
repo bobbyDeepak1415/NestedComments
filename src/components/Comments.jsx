@@ -1,10 +1,13 @@
 import React from 'react'
 import CommentBox from './CommentBox'
 
+
+const data=[]
+
 const Comments = () => {
   return (
     <div>
-      <CommentBox/>
+      <CommentBox data={data}/>
     </div>
   )
 }
