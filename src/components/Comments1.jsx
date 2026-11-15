@@ -1,4 +1,5 @@
 import React from 'react'
+import CommentBox1 from './CommentBox1'
 
 const data=[
     {userName:"Bobby",comment:"Lorem ipsum dolor sit amet."},
@@ -36,6 +37,8 @@ const data=[
 const Comments1 = () => {
   return (
     <div>
+        
+        <CommentBox1 data={data}/>
       
     </div>
   )
