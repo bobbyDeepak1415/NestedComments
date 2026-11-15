@@ -10,7 +10,7 @@ const CommentBox1 = ({data}) => {
       
         <img className='h-16 rounded-full' src="https://i.redd.it/snoovatar/avatars/97a48e43-58a6-4dcc-b5d2-771bb374872b.png"/>
 
-<div>{comment.userName}</div>
+<div className='font-bold px-2'>{comment.userName}</div>
 <div>{comment.comment}</div>
 <div>
     {comment?.replies && <CommentBox1 data={comment.replies}/>}
