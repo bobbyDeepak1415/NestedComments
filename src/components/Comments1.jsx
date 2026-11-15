@@ -1,6 +1,7 @@
 import React from 'react'
+import CommentBox1 from './CommentBox1'
 
-
+// delhi style biriyani
 const data=[
     {userName:"Bobby",comment:"Lorem ipsum dolor sit amet."},
     {userName:"Deepak",comment:"Lorem ipsum dolor sit amet.",replies:[
@@ -37,7 +38,7 @@ const data=[
 const Comments1 = () => {
   return (
     <div>
-      Hello00000.......
+      <CommentBox1 data={data}/>
     </div>
   )
 }
