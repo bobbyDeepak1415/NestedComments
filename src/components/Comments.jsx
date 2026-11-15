@@ -4,7 +4,11 @@ import CommentBox from './CommentBox'
 
 const data=[
   {name:"comment1",
-    comment:"Lorem ipsum dolor sit amet consectetur."
+    comment:"Lorem ipsum dolor sit amet consectetur.",
+    replies:[
+      {name:"comment1",
+    comment:"Lorem ipsum dolor sit amet consectetur."},
+    ]
   },
   {name:"comment1",
     comment:"Lorem ipsum dolor sit amet consectetur."
